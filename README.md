@@ -1,3 +1,17 @@
+Taylor Tyger's First Django App:
+    The homepage of this website will display:
+        1. a random lame programming joke from the database each time the page is loaded. 
+        2. The current view count for the page (You are the nth visitor).
+        3. The current time when the page is loaded.
+        4. Your IP address.
+
+
+
+
+
+
+
+
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'

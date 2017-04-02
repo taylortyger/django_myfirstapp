@@ -51,9 +51,10 @@ def index(request):
         }
         .joke-wrap
         {
-            background: #eee;
             padding: 5px 12px;
             padding-bottom: 35px;
+            background: #eee;
+            border-radius: 7px;
         }
         .joke, .note
         {
@@ -79,7 +80,7 @@ def index(request):
             <p class="joke">%s</p>
             <p class="note"><i>Note: refreshing this page will most likely generate a new joke.</i></p>
         </div>
-        <p>I can see you... Your current public IP address is: %s</p>
+        <p>I can see you... Your IP address is: %s</p>
         <p>The current date/time is: %s</p>
     </body>
     </html>

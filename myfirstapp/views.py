@@ -81,7 +81,7 @@ def index(request):
             <p class="note"><i>Note: refreshing this page will most likely generate a new joke.</i></p>
         </div>
         <p>I can see you... Your IP address is: %s</p>
-        <p>The current date/time is: %s</p>
+        <p>The current date/time is: %s(MST)</p>
     </body>
     </html>
     """ % (count.views, getRandomJoke(), ip, date)

@@ -15,3 +15,5 @@ class ViewCount(models.Model):
 class Joke(models.Model):
     joke_title = models.CharField(max_length=200)
     joke_text = models.CharField(max_length=2000)
+    def __str__(self):
+        return self.joke_title
